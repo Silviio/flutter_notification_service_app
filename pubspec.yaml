@@ -1,0 +1,32 @@
+name: flutternotificationserviceapp
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  animated_text_kit: ^1.3.1
+  firebase_core: ^0.4.3+1
+  firebase_auth: ^0.15.3
+  cloud_firestore: ^0.13.0+1
+  google_maps_flutter: ^0.5.21+15
+  geolocator: ^5.2.0
+  permission_handler: ^4.2.0+hotfix.2
+
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - images/
+
